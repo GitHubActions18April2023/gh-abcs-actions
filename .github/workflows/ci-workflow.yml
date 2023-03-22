@@ -57,8 +57,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Add here the download-artifact step
-            - shell: bash
+  # Add here the download-artifact step
+      - shell: bash
         run: |
           echo 'Test upload artifact' > output.log
       - name: Upload output file
